@@ -1,0 +1,34 @@
+.cards {
+  width: 80%;
+  display: flex;
+  margin: auto;
+  justify-content: center;
+  gap: 2%;
+}
+
+.each-card {
+  padding: 20px 30px;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  width: 20%;
+}
+
+.price-image-cont {
+  display: flex;
+  align-items: center;
+  gap: 10%;
+}
+
+#banner-img {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.card-btn {
+  background-color: rgb(253, 221, 193);
+  color: rgb(226, 135, 135);
+  border: 1px solid rgb(255, 150, 150);
+  font-size: 12px;
+  padding: 3px 5px;
+  border-radius: 3px;
+  margin: 10px 0px;
+}
